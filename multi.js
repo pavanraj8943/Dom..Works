@@ -9,3 +9,14 @@ document.getElementById("multi").addEventListener('click', () => {
 
     document.getElementById("res").innerHTML = str
 })
+
+
+
+
+
+
+
+
+
+
+
