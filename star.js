@@ -1,7 +1,7 @@
 document.getElementById("multi").addEventListener('click', () => {
     let x = parseInt(document.getElementById("num").value)
 
-if (x>=50)
+if (x>=34)
    return alert("Kauthukam lesham kooduthalaa alle....🤫")
     let inner = ""
     for (i = 1; i <= x; i++) {

@@ -30,7 +30,8 @@ function displayTask() {
 function deletes(index) {
     let tasks = todo[index];
     if (confirm(`Are you sure "${index + 1},${tasks}" want to delete?`)) {
-        todo.splice(index,1);
+        // todo.splice(index,1);
+        todo = todo.filter((task, i)=> i !==index)
         displayTask()
     }
 }
