@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #5e60ce;
+    box-shadow: 0 0 5px #5e60ce;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: rgb(235, 64, 64);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a4adf;
+}
+
+table {
+    width: 80%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #5e60ce;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9e9ff;
+}
+
+#edit {
+    background-color: #ffa502;
+}
+
+#edit:hover {
+    background-color: #e08900;
+}
+
+#delete {
+    background-color: #ff4757;
+}
+
+#delete:hover {
+    background-color: #e84118;
+}
