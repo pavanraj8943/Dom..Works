@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="todo.css">
 </head>
+
 <body>
-
-    <div class="main">
-
-         <div class="input">
-            <input type="text" placeholder="Add task" id="task">
-            <button id="add">Add</button>
-        </div>
-
-    <div class="filter">
-    <button>All</button>
-    <button>completed</button>
-    <button>Pending</button>
+    <input type="text" id="task" placeholder="Enter Task Name">
+    <button id="add">Add</button>
+    <div class="btn">
+        <button id="all">All</button>
+        <button id="complete">Completed</button>
+        <button id="pending">Pending</button>
     </div>
+    <table>
+        <thead>
+            <tr>
+                <th>SI.NO</th>
+                <th>...!</th>
+                <th>Task Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="display">
 
- 
-  <table>
-            <thead>
-                <tr>
-                    <th>SI.NO</th>
-                    <th>Status</th>
-                    <th>Task Name</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody id="display">
+        </tbody>
+    </table>
 
-            </tbody>
-        </table>
-    </div>
 
     <script src="todo.js"></script>
-    
 </body>
+
 </html>
